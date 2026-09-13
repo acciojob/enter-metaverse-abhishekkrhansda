@@ -3,5 +3,5 @@ let btn = document.querySelector("#enterBtn");
 let para = document.querySelector("#status");
 
 btn.addEventListener("click",() =>{
-	para.innerHTML = "<h1><p> Entered Metaverse</p></h1>";
+	para.outerHTML = "<h1> Entered Metaverse</h1>";
 })
